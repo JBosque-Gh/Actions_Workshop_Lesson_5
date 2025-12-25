@@ -16,7 +16,7 @@ jobs:
         id: stepVar
         env:
           STEP_VAR: "Step level variable"
-        run:
+        run: |
           echo ${{ github.actor }}
           echo $ GITHUB_JOB
           echo $ WF_VAR
